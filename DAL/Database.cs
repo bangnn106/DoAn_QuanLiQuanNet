@@ -23,8 +23,7 @@ namespace DAL
             private set { Database.instance = value; }
         }
 
-        private string connectionSTR = "Data Source=.\\SQLEXPRESS;Initial Catalog=QlyCafeInternet;Integrated Security=True";
-
+        private string connectionSTR = @"Data Source=.;Initial Catalog=QlyCafeInternet;Integrated Security=True;TrustServerCertificate=True";
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
             DataTable dt = new DataTable();

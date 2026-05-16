@@ -104,5 +104,9 @@ namespace QLquannet
             }
         }
 
+        private void pnlMovable_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

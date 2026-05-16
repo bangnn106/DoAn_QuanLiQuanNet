@@ -122,15 +122,29 @@ namespace QLquannet.FoodModel
                 {
                     string imagePath = openFileDialog.FileName;
                     if (imagePath != null)
-                    {
-                        picFood.Image = Image.FromFile(imagePath);
+                    {// Đọc file ảnh thành mảng Byte để không chiếm dụng file trên ổ cứng
+                        byte[] imageBytes = File.ReadAllBytes(imagePath);
+
+                        using (MemoryStream ms = new MemoryStream(imageBytes))
+                        {
+                            // Giải phóng ảnh cũ trong PictureBox nếu có để tiết kiệm RAM
+                            if (picFood.Image != null) picFood.Image.Dispose();
+
+                            // Nạp ảnh mới từ bộ nhớ
+                            picFood.Image = Image.FromStream(ms);
+                        }
+
                         imageUpdated = true;
                     }
                 }
             }
 
         }
-        
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
 }
