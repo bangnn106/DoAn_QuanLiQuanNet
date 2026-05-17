@@ -7,7 +7,7 @@ namespace DAL
 {
     public class ZoneDAL
     {
-        #region ---------- Code cua HungTuLenh 
+        #region ----------  
         private static ZoneDAL instance;
 
         public static ZoneDAL Instance

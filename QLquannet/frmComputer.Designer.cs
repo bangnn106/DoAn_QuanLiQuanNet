@@ -699,7 +699,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1065, 618);
+            this.ClientSize = new System.Drawing.Size(867, 481);
             this.Controls.Add(this.txtNhanvien);
             this.Controls.Add(this.gbZone);
             this.Controls.Add(this.label6);
@@ -708,6 +708,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmComputer";
             this.Text = "frmBilling";
+            this.Load += new System.EventHandler(this.frmComputer_Load);
             this.pnlZone.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

@@ -7,7 +7,7 @@ namespace DAL
     class Database
     {
 
-        #region ---------- Code cua HungTuLenh 
+        #region ----------  
         private static Database instance;
 
         public static Database Instance

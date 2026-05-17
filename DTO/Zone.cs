@@ -2,7 +2,7 @@
 
 namespace DTO
 {
-    #region ---------- Code cua HungTuLenh 
+    #region ----------  
     public class Zone
     {
         public Zone(DataRow row)

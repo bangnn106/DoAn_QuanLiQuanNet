@@ -10,7 +10,7 @@ namespace QLquannet
 {
     public partial class frmComputer : Form
     {
-        #region ---------- Code cua HungTuLenh 
+        #region ----------  
 
         byte cid;
         int bid;
@@ -269,5 +269,9 @@ namespace QLquannet
 
         #endregion
 
+        private void frmComputer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

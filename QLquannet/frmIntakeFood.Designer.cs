@@ -66,9 +66,8 @@
             this.panel1.Controls.Add(this.lbFoodIntake);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1420, 105);
+            this.panel1.Size = new System.Drawing.Size(1018, 85);
             this.panel1.TabIndex = 1;
             // 
             // lbStaff
@@ -76,10 +75,9 @@
             this.lbStaff.AutoSize = true;
             this.lbStaff.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbStaff.ForeColor = System.Drawing.Color.White;
-            this.lbStaff.Location = new System.Drawing.Point(1404, 41);
-            this.lbStaff.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbStaff.Location = new System.Drawing.Point(1053, 33);
             this.lbStaff.Name = "lbStaff";
-            this.lbStaff.Size = new System.Drawing.Size(0, 25);
+            this.lbStaff.Size = new System.Drawing.Size(0, 29);
             this.lbStaff.TabIndex = 5;
             this.lbStaff.Visible = false;
             // 
@@ -88,10 +86,9 @@
             this.lbCom.AutoSize = true;
             this.lbCom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCom.ForeColor = System.Drawing.Color.White;
-            this.lbCom.Location = new System.Drawing.Point(840, 44);
-            this.lbCom.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbCom.Location = new System.Drawing.Point(630, 36);
             this.lbCom.Name = "lbCom";
-            this.lbCom.Size = new System.Drawing.Size(0, 25);
+            this.lbCom.Size = new System.Drawing.Size(0, 29);
             this.lbCom.TabIndex = 4;
             this.lbCom.Visible = false;
             // 
@@ -100,9 +97,10 @@
             this.lbFoodIntake.AutoSize = true;
             this.lbFoodIntake.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbFoodIntake.ForeColor = System.Drawing.Color.White;
-            this.lbFoodIntake.Location = new System.Drawing.Point(31, 36);
+            this.lbFoodIntake.Location = new System.Drawing.Point(23, 29);
+            this.lbFoodIntake.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbFoodIntake.Name = "lbFoodIntake";
-            this.lbFoodIntake.Size = new System.Drawing.Size(146, 31);
+            this.lbFoodIntake.Size = new System.Drawing.Size(176, 37);
             this.lbFoodIntake.TabIndex = 0;
             this.lbFoodIntake.Text = "Nhập hàng";
             // 
@@ -112,10 +110,9 @@
             this.panel2.Controls.Add(this.lbTongTien);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 672);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Location = new System.Drawing.Point(0, 500);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1420, 92);
+            this.panel2.Size = new System.Drawing.Size(1018, 75);
             this.panel2.TabIndex = 2;
             // 
             // lbTongTien
@@ -123,10 +120,9 @@
             this.lbTongTien.AutoSize = true;
             this.lbTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTongTien.ForeColor = System.Drawing.Color.White;
-            this.lbTongTien.Location = new System.Drawing.Point(1209, 29);
-            this.lbTongTien.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbTongTien.Location = new System.Drawing.Point(907, 24);
             this.lbTongTien.Name = "lbTongTien";
-            this.lbTongTien.Size = new System.Drawing.Size(67, 31);
+            this.lbTongTien.Size = new System.Drawing.Size(80, 37);
             this.lbTongTien.TabIndex = 5;
             this.lbTongTien.Text = "0.00";
             // 
@@ -135,18 +131,18 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(1066, 29);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(800, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 31);
+            this.label2.Size = new System.Drawing.Size(160, 37);
             this.label2.TabIndex = 4;
             this.label2.Text = "Tổng tiền:";
             // 
             // txtMaHoaDon
             // 
-            this.txtMaHoaDon.Location = new System.Drawing.Point(205, 287);
+            this.txtMaHoaDon.Location = new System.Drawing.Point(154, 233);
+            this.txtMaHoaDon.Margin = new System.Windows.Forms.Padding(2);
             this.txtMaHoaDon.Name = "txtMaHoaDon";
-            this.txtMaHoaDon.Size = new System.Drawing.Size(272, 22);
+            this.txtMaHoaDon.Size = new System.Drawing.Size(205, 26);
             this.txtMaHoaDon.TabIndex = 103;
             // 
             // lblMaHoaDon
@@ -154,10 +150,9 @@
             this.lblMaHoaDon.AutoSize = true;
             this.lblMaHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMaHoaDon.ForeColor = System.Drawing.Color.Black;
-            this.lblMaHoaDon.Location = new System.Drawing.Point(60, 284);
-            this.lblMaHoaDon.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMaHoaDon.Location = new System.Drawing.Point(45, 231);
             this.lblMaHoaDon.Name = "lblMaHoaDon";
-            this.lblMaHoaDon.Size = new System.Drawing.Size(122, 25);
+            this.lblMaHoaDon.Size = new System.Drawing.Size(145, 29);
             this.lblMaHoaDon.TabIndex = 102;
             this.lblMaHoaDon.Text = "Mã hoá đơn:";
             // 
@@ -165,10 +160,9 @@
             // 
             this.btnConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConfirm.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.btnConfirm.Location = new System.Drawing.Point(845, 565);
-            this.btnConfirm.Margin = new System.Windows.Forms.Padding(4);
+            this.btnConfirm.Location = new System.Drawing.Point(634, 459);
             this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(245, 50);
+            this.btnConfirm.Size = new System.Drawing.Size(184, 41);
             this.btnConfirm.TabIndex = 101;
             this.btnConfirm.Text = "Xác nhận nhập hàng";
             this.btnConfirm.UseVisualStyleBackColor = true;
@@ -178,10 +172,9 @@
             // 
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.btnClear.Location = new System.Drawing.Point(204, 565);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4);
+            this.btnClear.Location = new System.Drawing.Point(153, 459);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(273, 50);
+            this.btnClear.Size = new System.Drawing.Size(205, 41);
             this.btnClear.TabIndex = 100;
             this.btnClear.Text = "Làm mới dữ liệu";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -189,25 +182,28 @@
             // 
             // txtTenHang
             // 
-            this.txtTenHang.Location = new System.Drawing.Point(205, 334);
+            this.txtTenHang.Location = new System.Drawing.Point(154, 271);
+            this.txtTenHang.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenHang.Name = "txtTenHang";
-            this.txtTenHang.Size = new System.Drawing.Size(272, 22);
+            this.txtTenHang.Size = new System.Drawing.Size(205, 26);
             this.txtTenHang.TabIndex = 99;
             // 
             // txtSoLuong
             // 
-            this.txtSoLuong.Location = new System.Drawing.Point(205, 422);
+            this.txtSoLuong.Location = new System.Drawing.Point(154, 343);
+            this.txtSoLuong.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(272, 22);
+            this.txtSoLuong.Size = new System.Drawing.Size(205, 26);
             this.txtSoLuong.TabIndex = 98;
             this.txtSoLuong.TextChanged += new System.EventHandler(this.txtSoLuong_TextChanged);
             this.txtSoLuong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSoLuong_KeyPress);
             // 
             // txtMaHang
             // 
-            this.txtMaHang.Location = new System.Drawing.Point(205, 380);
+            this.txtMaHang.Location = new System.Drawing.Point(154, 309);
+            this.txtMaHang.Margin = new System.Windows.Forms.Padding(2);
             this.txtMaHang.Name = "txtMaHang";
-            this.txtMaHang.Size = new System.Drawing.Size(272, 22);
+            this.txtMaHang.Size = new System.Drawing.Size(205, 26);
             this.txtMaHang.TabIndex = 97;
             // 
             // lbSoLuong
@@ -215,10 +211,9 @@
             this.lbSoLuong.AutoSize = true;
             this.lbSoLuong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbSoLuong.ForeColor = System.Drawing.Color.Black;
-            this.lbSoLuong.Location = new System.Drawing.Point(83, 420);
-            this.lbSoLuong.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbSoLuong.Location = new System.Drawing.Point(62, 341);
             this.lbSoLuong.Name = "lbSoLuong";
-            this.lbSoLuong.Size = new System.Drawing.Size(96, 25);
+            this.lbSoLuong.Size = new System.Drawing.Size(115, 29);
             this.lbSoLuong.TabIndex = 96;
             this.lbSoLuong.Text = "Số lượng:";
             // 
@@ -227,10 +222,9 @@
             this.lbTenHang.AutoSize = true;
             this.lbTenHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTenHang.ForeColor = System.Drawing.Color.Black;
-            this.lbTenHang.Location = new System.Drawing.Point(80, 331);
-            this.lbTenHang.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbTenHang.Location = new System.Drawing.Point(60, 269);
             this.lbTenHang.Name = "lbTenHang";
-            this.lbTenHang.Size = new System.Drawing.Size(102, 25);
+            this.lbTenHang.Size = new System.Drawing.Size(121, 29);
             this.lbTenHang.TabIndex = 95;
             this.lbTenHang.Text = "Tên hàng:";
             // 
@@ -239,10 +233,9 @@
             this.lbMaHang.AutoSize = true;
             this.lbMaHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMaHang.ForeColor = System.Drawing.Color.Black;
-            this.lbMaHang.Location = new System.Drawing.Point(85, 377);
-            this.lbMaHang.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbMaHang.Location = new System.Drawing.Point(64, 306);
             this.lbMaHang.Name = "lbMaHang";
-            this.lbMaHang.Size = new System.Drawing.Size(95, 25);
+            this.lbMaHang.Size = new System.Drawing.Size(111, 29);
             this.lbMaHang.TabIndex = 94;
             this.lbMaHang.Text = "Mã hàng:";
             // 
@@ -250,10 +243,9 @@
             // 
             this.btnResetFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnResetFilter.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.btnResetFilter.Location = new System.Drawing.Point(1190, 157);
-            this.btnResetFilter.Margin = new System.Windows.Forms.Padding(4);
+            this.btnResetFilter.Location = new System.Drawing.Point(892, 128);
             this.btnResetFilter.Name = "btnResetFilter";
-            this.btnResetFilter.Size = new System.Drawing.Size(167, 81);
+            this.btnResetFilter.Size = new System.Drawing.Size(125, 66);
             this.btnResetFilter.TabIndex = 93;
             this.btnResetFilter.Text = "Làm mới bộ lọc";
             this.btnResetFilter.UseVisualStyleBackColor = true;
@@ -263,10 +255,9 @@
             // 
             this.txtSearchFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearchFood.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txtSearchFood.Location = new System.Drawing.Point(722, 208);
-            this.txtSearchFood.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSearchFood.Location = new System.Drawing.Point(542, 169);
             this.txtSearchFood.Name = "txtSearchFood";
-            this.txtSearchFood.Size = new System.Drawing.Size(421, 30);
+            this.txtSearchFood.Size = new System.Drawing.Size(317, 35);
             this.txtSearchFood.TabIndex = 92;
             this.txtSearchFood.TextChanged += new System.EventHandler(this.txtSearchFood_TextChanged);
             // 
@@ -275,10 +266,9 @@
             this.lbFood.AutoSize = true;
             this.lbFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbFood.ForeColor = System.Drawing.Color.Black;
-            this.lbFood.Location = new System.Drawing.Point(900, 157);
-            this.lbFood.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbFood.Location = new System.Drawing.Point(675, 128);
             this.lbFood.Name = "lbFood";
-            this.lbFood.Size = new System.Drawing.Size(102, 25);
+            this.lbFood.Size = new System.Drawing.Size(121, 29);
             this.lbFood.TabIndex = 91;
             this.lbFood.Text = "Tên hàng:";
             // 
@@ -287,10 +277,9 @@
             this.lbCategory.AutoSize = true;
             this.lbCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCategory.ForeColor = System.Drawing.Color.Black;
-            this.lbCategory.Location = new System.Drawing.Point(564, 157);
-            this.lbCategory.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbCategory.Location = new System.Drawing.Point(423, 128);
             this.lbCategory.Name = "lbCategory";
-            this.lbCategory.Size = new System.Drawing.Size(150, 25);
+            this.lbCategory.Size = new System.Drawing.Size(180, 29);
             this.lbCategory.TabIndex = 90;
             this.lbCategory.Text = "Chọn loại hàng:";
             // 
@@ -298,10 +287,9 @@
             // 
             this.cboFood.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboFood.FormattingEnabled = true;
-            this.cboFood.Location = new System.Drawing.Point(1010, 158);
-            this.cboFood.Margin = new System.Windows.Forms.Padding(4);
+            this.cboFood.Location = new System.Drawing.Point(758, 128);
             this.cboFood.Name = "cboFood";
-            this.cboFood.Size = new System.Drawing.Size(133, 24);
+            this.cboFood.Size = new System.Drawing.Size(101, 28);
             this.cboFood.TabIndex = 89;
             this.cboFood.SelectedIndexChanged += new System.EventHandler(this.cboFood_SelectedIndexChanged);
             // 
@@ -309,24 +297,22 @@
             // 
             this.cboCat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCat.FormattingEnabled = true;
-            this.cboCat.Location = new System.Drawing.Point(722, 158);
-            this.cboCat.Margin = new System.Windows.Forms.Padding(4);
+            this.cboCat.Location = new System.Drawing.Point(542, 128);
             this.cboCat.Name = "cboCat";
-            this.cboCat.Size = new System.Drawing.Size(135, 24);
+            this.cboCat.Size = new System.Drawing.Size(102, 28);
             this.cboCat.TabIndex = 88;
             this.cboCat.SelectedIndexChanged += new System.EventHandler(this.cboCat_SelectedIndexChanged);
             // 
             // dgvFood
             // 
             this.dgvFood.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvFood.Location = new System.Drawing.Point(569, 278);
-            this.dgvFood.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvFood.Location = new System.Drawing.Point(427, 226);
             this.dgvFood.Name = "dgvFood";
             this.dgvFood.ReadOnly = true;
             this.dgvFood.RowHeadersVisible = false;
             this.dgvFood.RowHeadersWidth = 51;
             this.dgvFood.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvFood.Size = new System.Drawing.Size(788, 241);
+            this.dgvFood.Size = new System.Drawing.Size(591, 196);
             this.dgvFood.TabIndex = 87;
             this.dgvFood.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvFood_CellClick);
             this.dgvFood.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvFood_CellValueChanged);
@@ -337,19 +323,18 @@
             this.lbTimKiem.AutoSize = true;
             this.lbTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTimKiem.ForeColor = System.Drawing.Color.Black;
-            this.lbTimKiem.Location = new System.Drawing.Point(584, 211);
-            this.lbTimKiem.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbTimKiem.Location = new System.Drawing.Point(438, 171);
             this.lbTimKiem.Name = "lbTimKiem";
-            this.lbTimKiem.Size = new System.Drawing.Size(97, 25);
+            this.lbTimKiem.Size = new System.Drawing.Size(119, 29);
             this.lbTimKiem.TabIndex = 104;
             this.lbTimKiem.Text = "Tìm kiếm:";
             // 
             // frmIntakeFood
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1420, 764);
+            this.ClientSize = new System.Drawing.Size(975, 601);
             this.Controls.Add(this.lbTimKiem);
             this.Controls.Add(this.txtMaHoaDon);
             this.Controls.Add(this.lblMaHoaDon);
@@ -371,6 +356,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmIntakeFood";
             this.Text = "frmIntakeFood";
             this.Load += new System.EventHandler(this.frmIntakeFood_Load);
