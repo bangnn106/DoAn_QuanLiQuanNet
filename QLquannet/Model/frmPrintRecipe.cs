@@ -39,11 +39,10 @@ namespace QLquannet.Model
                 return;
             }
 
-            // 1. Lấy thông tin hóa đơn được chọn
             DataGridViewRow selectedRow = dgvBilling.SelectedRows[0];
             int billingID = Convert.ToInt32(selectedRow.Cells["BillingID"].Value);
 
-            // 2. Lấy dữ liệu chi tiết từ Database (giữ nguyên logic DAL của bạn)
+            //Lấy dữ liệu chi tiết từ Database 
             DataTable billingInfo = prDAL.GetBillingInfo(billingID);
             DataTable foodDetails = prDAL.GetFoodDetails(billingID);
 
@@ -53,7 +52,6 @@ namespace QLquannet.Model
                 return;
             }
 
-            // 3. Sử dụng SaveFileDialog để người dùng chọn nơi lưu file
             SaveFileDialog sfd = new SaveFileDialog();
             sfd.Filter = "CSV Files (*.csv)|*.csv";
             sfd.FileName = "HoaDon_" + billingID + ".csv";
@@ -63,19 +61,17 @@ namespace QLquannet.Model
                 try
                 {
                     StringBuilder sb = new StringBuilder();
-
-                    // --- Phần đầu hóa đơn ---
+                    //Phần đầu hóa đơn
                     sb.AppendLine("HOA DON THANH TOAN");
                     sb.AppendLine("Cua hang: NET CO");
                     sb.AppendLine("Ma hoa don: " + billingID);
                     sb.AppendLine("Ngay: " + billingInfo.Rows[0]["Date"].ToString());
                     sb.AppendLine("Nhan vien: " + billingInfo.Rows[0]["LastName"].ToString());
-                    sb.AppendLine(); // Dòng trống
+                    sb.AppendLine();
 
-                    // --- Tiêu đề bảng hàng hóa (Ngăn cách bởi dấu phẩy) ---
                     sb.AppendLine("STT,Ten Mon,So Luong,Don Gia,Thanh Tien");
 
-                    // --- Chi tiết các món ăn ---
+                    // Chi tiết các món ăn
                     for (int i = 0; i < foodDetails.Rows.Count; i++)
                     {
                         string stt = (i + 1).ToString();
@@ -83,21 +79,12 @@ namespace QLquannet.Model
                         string soLuong = foodDetails.Rows[i]["Count"].ToString();
                         string donGia = foodDetails.Rows[i]["Price"].ToString();
                         string thanhTien = foodDetails.Rows[i]["Total"].ToString();
-
-                        // Nối các cột lại bằng dấu phẩy
                         sb.AppendLine($"{stt},{tenMon},{soLuong},{donGia},{thanhTien}");
                     }
-
-                    // --- Tổng kết ---
                     sb.AppendLine();
                     sb.AppendLine($",,,Tong tien:,{billingInfo.Rows[0]["Amount"]}");
-
-                    // 4. Ghi file với mã hóa UTF-8 để hiển thị được tiếng Việt
                     File.WriteAllText(sfd.FileName, sb.ToString(), Encoding.UTF8);
-
                     MessageBox.Show("Xuất file CSV thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    // Tùy chọn: Mở file ngay sau khi lưu
                     System.Diagnostics.Process.Start(sfd.FileName);
                 }
                 catch (Exception ex)

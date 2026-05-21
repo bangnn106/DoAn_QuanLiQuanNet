@@ -56,8 +56,9 @@
             this.pnlMovable.Controls.Add(this.panel2);
             this.pnlMovable.Controls.Add(this.button5);
             this.pnlMovable.Location = new System.Drawing.Point(0, 0);
+            this.pnlMovable.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlMovable.Name = "pnlMovable";
-            this.pnlMovable.Size = new System.Drawing.Size(867, 0);
+            this.pnlMovable.Size = new System.Drawing.Size(1300, 0);
             this.pnlMovable.TabIndex = 0;
             this.pnlMovable.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMovable_Paint);
             this.pnlMovable.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlMovable_MouseDown);
@@ -66,16 +67,18 @@
             // 
             // pnlStatus
             // 
-            this.pnlStatus.Location = new System.Drawing.Point(60, 30);
+            this.pnlStatus.Location = new System.Drawing.Point(90, 46);
+            this.pnlStatus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlStatus.Name = "pnlStatus";
-            this.pnlStatus.Size = new System.Drawing.Size(1133, 46);
+            this.pnlStatus.Size = new System.Drawing.Size(1700, 71);
             this.pnlStatus.TabIndex = 2;
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(59, 30);
+            this.panel2.Location = new System.Drawing.Point(88, 46);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1134, 51);
+            this.panel2.Size = new System.Drawing.Size(1701, 78);
             this.panel2.TabIndex = 2;
             // 
             // button5
@@ -83,9 +86,10 @@
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Image = global::QLquannet.Properties.Resources.close__1_;
-            this.button5.Location = new System.Drawing.Point(1163, 0);
+            this.button5.Location = new System.Drawing.Point(1744, 0);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(30, 30);
+            this.button5.Size = new System.Drawing.Size(45, 46);
             this.button5.TabIndex = 0;
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -101,8 +105,9 @@
             this.pnlMenubar.Controls.Add(this.btnComputer);
             this.pnlMenubar.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenubar.Location = new System.Drawing.Point(0, 0);
+            this.pnlMenubar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlMenubar.Name = "pnlMenubar";
-            this.pnlMenubar.Size = new System.Drawing.Size(128, 481);
+            this.pnlMenubar.Size = new System.Drawing.Size(192, 740);
             this.pnlMenubar.TabIndex = 1;
             // 
             // btnIntake
@@ -113,9 +118,10 @@
             this.btnIntake.ForeColor = System.Drawing.Color.White;
             this.btnIntake.Image = global::QLquannet.Properties.Resources.shopping_cart;
             this.btnIntake.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIntake.Location = new System.Drawing.Point(0, 452);
+            this.btnIntake.Location = new System.Drawing.Point(0, 695);
+            this.btnIntake.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnIntake.Name = "btnIntake";
-            this.btnIntake.Size = new System.Drawing.Size(128, 51);
+            this.btnIntake.Size = new System.Drawing.Size(192, 78);
             this.btnIntake.TabIndex = 5;
             this.btnIntake.Text = "Nhập hàng";
             this.btnIntake.UseVisualStyleBackColor = true;
@@ -129,9 +135,10 @@
             this.btnMaintain.ForeColor = System.Drawing.Color.White;
             this.btnMaintain.Image = ((System.Drawing.Image)(resources.GetObject("btnMaintain.Image")));
             this.btnMaintain.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMaintain.Location = new System.Drawing.Point(0, 371);
+            this.btnMaintain.Location = new System.Drawing.Point(0, 571);
+            this.btnMaintain.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMaintain.Name = "btnMaintain";
-            this.btnMaintain.Size = new System.Drawing.Size(128, 51);
+            this.btnMaintain.Size = new System.Drawing.Size(192, 78);
             this.btnMaintain.TabIndex = 4;
             this.btnMaintain.Text = "Bảo trì";
             this.btnMaintain.UseVisualStyleBackColor = true;
@@ -145,9 +152,10 @@
             this.bthLogout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.bthLogout.Image = ((System.Drawing.Image)(resources.GetObject("bthLogout.Image")));
             this.bthLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bthLogout.Location = new System.Drawing.Point(0, 568);
+            this.bthLogout.Location = new System.Drawing.Point(0, 874);
+            this.bthLogout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bthLogout.Name = "bthLogout";
-            this.bthLogout.Size = new System.Drawing.Size(128, 51);
+            this.bthLogout.Size = new System.Drawing.Size(192, 78);
             this.bthLogout.TabIndex = 3;
             this.bthLogout.Text = "Đăng xuất";
             this.bthLogout.UseVisualStyleBackColor = true;
@@ -161,9 +169,10 @@
             this.btnBill.ForeColor = System.Drawing.Color.White;
             this.btnBill.Image = ((System.Drawing.Image)(resources.GetObject("btnBill.Image")));
             this.btnBill.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBill.Location = new System.Drawing.Point(0, 281);
+            this.btnBill.Location = new System.Drawing.Point(0, 432);
+            this.btnBill.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBill.Name = "btnBill";
-            this.btnBill.Size = new System.Drawing.Size(128, 51);
+            this.btnBill.Size = new System.Drawing.Size(192, 78);
             this.btnBill.TabIndex = 2;
             this.btnBill.Text = "Hóa đơn";
             this.btnBill.UseVisualStyleBackColor = true;
@@ -177,9 +186,10 @@
             this.btnFood.ForeColor = System.Drawing.Color.White;
             this.btnFood.Image = ((System.Drawing.Image)(resources.GetObject("btnFood.Image")));
             this.btnFood.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFood.Location = new System.Drawing.Point(0, 191);
+            this.btnFood.Location = new System.Drawing.Point(0, 294);
+            this.btnFood.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnFood.Name = "btnFood";
-            this.btnFood.Size = new System.Drawing.Size(128, 51);
+            this.btnFood.Size = new System.Drawing.Size(192, 78);
             this.btnFood.TabIndex = 1;
             this.btnFood.Text = "Thực đơn";
             this.btnFood.UseVisualStyleBackColor = true;
@@ -193,9 +203,10 @@
             this.btnComputer.ForeColor = System.Drawing.Color.White;
             this.btnComputer.Image = ((System.Drawing.Image)(resources.GetObject("btnComputer.Image")));
             this.btnComputer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnComputer.Location = new System.Drawing.Point(0, 101);
+            this.btnComputer.Location = new System.Drawing.Point(0, 155);
+            this.btnComputer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnComputer.Name = "btnComputer";
-            this.btnComputer.Size = new System.Drawing.Size(128, 51);
+            this.btnComputer.Size = new System.Drawing.Size(192, 78);
             this.btnComputer.TabIndex = 0;
             this.btnComputer.Text = "Đặt máy";
             this.btnComputer.UseVisualStyleBackColor = true;
@@ -208,22 +219,24 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlMain.AutoSize = true;
             this.pnlMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(42)))), ((int)(((byte)(64)))));
-            this.pnlMain.Location = new System.Drawing.Point(128, 30);
+            this.pnlMain.Location = new System.Drawing.Point(192, 0);
+            this.pnlMain.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(739, 451);
+            this.pnlMain.Size = new System.Drawing.Size(1108, 740);
             this.pnlMain.TabIndex = 4;
+            this.pnlMain.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMain_Paint);
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(867, 481);
+            this.ClientSize = new System.Drawing.Size(1300, 740);
             this.Controls.Add(this.pnlMenubar);
             this.Controls.Add(this.pnlMovable);
             this.Controls.Add(this.pnlMain);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";

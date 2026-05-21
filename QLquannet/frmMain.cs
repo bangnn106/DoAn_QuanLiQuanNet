@@ -108,5 +108,10 @@ namespace QLquannet
         {
 
         }
+
+        private void pnlMain_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
